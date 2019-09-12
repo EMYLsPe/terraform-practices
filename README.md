@@ -35,6 +35,7 @@ Lynda learning course practices
 
 - 1. create **_resources.tf_** file
 - 2. create basic aws vpc
+        - :pencil2: **you can change these values => _environment-example-two, 10.0.0.0/16, terraform-vpc-example-two_** 
 ```
                 resource "aws_vpc" "environment-example-two" {
                   cidr_block = "10.0.0.0/16"
@@ -45,7 +46,6 @@ Lynda learning course practices
                   }
                 }
 ```
-> :pencil2: **you can change these values => _environment-example-two, 10.0.0.0/16, terraform-vpc-example-two_** 
 
 - 3. execute `terraform plan` to check whether if there is any same resources exist in the aws account and any conflicts
  
