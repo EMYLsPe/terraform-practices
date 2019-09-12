@@ -3,7 +3,7 @@ Lynda learning course practices
 
 ##### 1. Configure AWS CLI
 ###### prerequesities : install AWS CLI
-1. use >`aws configure` command on the terminal
+- 1. use >`aws configure` command on the terminal
 2. configure 
 ```
                   aws access key Id : your aws key
