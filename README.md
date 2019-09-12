@@ -24,7 +24,7 @@ Lynda learning course practices
 ```
 - 3. execute `terraform init` on the terminal to initialize the connection.
 
-###### post requisites : add .gitignore to the following feilds
+###### post requisites : add following feilds to the .gitignore 
 ```
                 .DS_Store
                 .idea 
