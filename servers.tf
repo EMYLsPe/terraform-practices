@@ -1,9 +1,3 @@
-// create an aws instance
-resource "aws_instance" "firstserver" {
-  ami = "${}"
-  instance_type = ""
-}
-
 data "aws_ami" "ubuntu" {
   most_recent = true
 
@@ -14,8 +8,19 @@ data "aws_ami" "ubuntu" {
 
   filter {
     name = "virtualization-type"
-    values="hvm"
+    values = ["hvm"]
   }
 
   owners = ["643687687674563"]
+}
+
+resource "aws_instance" "firstserver" {
+  ami = "${data.aws_ami.ubuntu.id}"
+  instance_type = "t2.micro"
+
+  tags {
+    Name = "identifiretag"
+  }
+
+  subnet_id = "${aws_subnet.subnet2.id}"
 }
