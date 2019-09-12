@@ -45,7 +45,7 @@ Lynda learning course practices
                   }
                 }
 ```
->>**you can change these values => _environment-example-two, 10.0.0.0/16, terraform-vpc-example-two_** 
+> :pencil2: **you can change these values => _environment-example-two, 10.0.0.0/16, terraform-vpc-example-two_** 
 
 - 3. execute `terraform plan` to check whether if there is any same resources exist in the aws account and any conflicts
  
