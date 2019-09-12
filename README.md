@@ -11,4 +11,7 @@ Lynda learning course practices
                   default region name : any region eg:us-west2
                   default output format : eg:json
 ```
-`make`
+
+##### 2. Create the connection
+
+- 1. create **_ connection.tf _**
