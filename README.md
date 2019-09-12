@@ -14,4 +14,4 @@ Lynda learning course practices
 
 ##### 2. Create the connection
 
-- 1. create **_ connection.tf _**
+- 1. create **__ connection.tf __**
