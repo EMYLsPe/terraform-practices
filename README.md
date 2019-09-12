@@ -11,4 +11,4 @@ Lynda learning course practices
                   default region name : any region eg:us-west2
                   default output format : eg:json
                   ```
-
+`make`
